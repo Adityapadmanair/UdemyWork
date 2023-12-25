@@ -50,15 +50,12 @@ function addListEnter(event)
 	}
 }
 
-function toggleState(button) {
-    button.parentNode.classList.toggle("done");
-}
+
 
 
 button.addEventListener("click", addListClick);
 
 input.addEventListener("keydown", addListEnter); 
 
-firstbutton.addEventListener("click", toggleState)
 	
 
